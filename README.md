@@ -2,4 +2,4 @@
 
 ### Made with raw HTML & CSS
 
-And this not a responsive perfect design, if you want to see it on pixel perfect please use on 1600px screen
+And this is not a responsive design, if you want to see it on pixel perfect design please use on 1600px screen
