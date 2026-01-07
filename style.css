@@ -169,7 +169,7 @@ header {
 #mindset .mindset-container {
   width: 71%;
   max-width: 1140px;
-  background-image: url("/images/gradient2.png"), url("/images/watch.png");
+  background-image: url("images/gradient2.png"), url("images/watch.png");
   background-repeat: no-repeat;
   margin: 0 auto;
 }
