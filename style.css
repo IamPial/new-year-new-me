@@ -18,6 +18,7 @@
 
 /* main style */
 
+/* heading Section */
 header {
   background-image: url("./images/banner/banner1.png");
   background-repeat: no-repeat;
@@ -54,4 +55,65 @@ header {
 .my-btn {
   display: flex;
   justify-content: flex-end;
+}
+
+/* Stories Section */
+#stories {
+  padding: 131px 0;
+}
+#stories .stories-container {
+  width: 67%;
+  max-width: 1072px;
+  margin: 0 322px 0 206px;
+  display: flex;
+  align-items: center;
+  gap: 87px;
+}
+.stories-container .stories-img {
+  max-width: 569px;
+  position: relative;
+}
+.stories-container .stories-img img {
+  width: 100%;
+}
+.stories-container .stories-bg {
+  border-radius: 50%;
+  width: 527px;
+  height: 527px;
+  background-color: #f15b22;
+  opacity: 0.2;
+  position: absolute;
+  z-index: -1;
+  top: 27%;
+  left: 4%;
+}
+
+.stories-content {
+  max-width: 416px;
+  margin: 239px 0 84px;
+}
+.stories-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.stories-content .stories-para {
+  font-size: 16px;
+  color: #444343;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.stories-content .stories-desc {
+  max-width: 349px;
+}
+
+.stories-content .stories-desc p {
+  font-size: 16px;
+  color: #444343;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+.stories-content .stories-desc p i {
+  margin-right: 10px;
 }
