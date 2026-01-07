@@ -5,6 +5,19 @@
   font-family: "Work Sans", sans-serif;
 }
 
+/* shared style */
+.btn {
+  padding: 20px 26px;
+  background-color: #f15b22;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+/* main style */
+
 header {
   background-image: url("./images/banner/banner1.png");
   background-repeat: no-repeat;
@@ -38,12 +51,7 @@ header {
   justify-content: flex-end;
   margin-left: auto;
 }
-.btn {
-  padding: 20px 26px;
-  background-color: #f15b22;
-  color: #ffffff;
-  font-size: 20px;
-  border: none;
-  outline: none;
-  border-radius: 5px;
+.my-btn {
+  display: flex;
+  justify-content: flex-end;
 }
