@@ -14,7 +14,13 @@
   font-size: 20px;
   border: none;
   outline: none;
+  font-weight: 600;
   border-radius: 5px;
+}
+.btn-bg {
+  background-color: #fff;
+  color: #f15b22;
+  padding: 20px 36px;
 }
 
 /* main style */
@@ -151,4 +157,27 @@ header {
   font-size: 25px;
   color: #737272;
   font-weight: 500;
+}
+
+/* mindset section */
+#mindset {
+  padding: 130px 0;
+}
+#mindset .mindset-container {
+  width: 71%;
+  max-width: 1140px;
+  background-image: url("/images/gradient2.png"), url("/images/watch.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.mindset-content {
+  padding: 59px 0;
+  max-width: 459px;
+  margin-left: 64px;
+}
+.mindset-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 24px;
 }
